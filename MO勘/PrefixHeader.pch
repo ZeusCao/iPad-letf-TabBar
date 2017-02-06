@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  MO勘
+//
+//  Created by Zeus on 17/1/20.
+//  Copyright © 2017年 Zeus. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* PrefixHeader_pch */
+
+
+// 屏幕宽高
+#define KSCREEN_WIDTCH [UIScreen mainScreen].bounds.size.width
+#define KSCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
+// 左侧导航条的宽度
+#define Kscreen_left_width 80
+
+// 6的宽高比
+#define Six_proportion 375.0/667.0
